@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from "react";
 import api from "../../services/api";
 import {
-  Container,
-  FeaturedArticleContent,
   ArticleTitle,
-  FeaturedArticleContainer,
-  FeaturedArticleImage,
+  Container,
   DidYouKnowContainer,
   DidYouKnowContent,
-  DidYouKnowImage,
   DidYouKnowTitle,
+  FeaturedArticleContainer,
+  FeaturedArticleContent,
 } from "./styles";
 
 function Dashboard() {
