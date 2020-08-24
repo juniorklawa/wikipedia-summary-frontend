@@ -28,10 +28,6 @@ function Dashboard() {
   return (
     <Container>
       <FeaturedArticleContainer>
-        {/* <FeaturedArticleImage
-          alt="Today feature article"
-          src={data.todayFeaturedImageSrc}
-        /> */}
         <FeaturedArticleContent>
           <ArticleTitle>Today featured Article</ArticleTitle>
           <div
@@ -40,10 +36,6 @@ function Dashboard() {
         </FeaturedArticleContent>
       </FeaturedArticleContainer>
       <DidYouKnowContainer>
-        {/* <DidYouKnowImage
-          alt="Today feature article"
-          src={data.didYouKnowImage}
-        /> */}
         <DidYouKnowContent>
           <DidYouKnowTitle>Did you know?</DidYouKnowTitle>
           <ul>
